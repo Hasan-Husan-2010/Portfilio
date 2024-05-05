@@ -20,7 +20,7 @@ var debounce = (func, wait, immediate) => {
 };
 
 function scrollCheck(){
-    console.log(window.scrollY);
+    console.log('ScrollY = ' + window.scrollY);
     if(window.scrollY > 1400){
         btn.classList.add('show');
     } else {
