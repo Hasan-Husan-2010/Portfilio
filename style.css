@@ -140,6 +140,7 @@ body::-webkit-scrollbar-thumb {
     color: #0F1637;
     font-size: 65px;
     text-align: center;
+    user-select: none;
 }
 .my-works {
     background-color: #02081E;
