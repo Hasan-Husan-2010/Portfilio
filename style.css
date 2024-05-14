@@ -209,6 +209,7 @@ body::-webkit-scrollbar-thumb {
     right: 20px;
     top: 10px;
     transition: .2s all linear;
+    user-select: none;
 }
 .btn {
     background-color: transparent;
@@ -322,4 +323,379 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+@media(max-width:865px) {
+    .links {
+        width: 60%;
+    }
+    .image2 {
+        width: 600px;
+        margin-top: 6px;
+    }
+    .p,.p2, .p4 {
+        font-size: 16.5px;
+    }
+    .h2,.h2-3 {
+        font-size: 22px;
+    }
+    .a2 {
+        font-size: 30px;
+    }
+    .num {
+        font-size: 50px;
+    }
+    .btn {
+        font-size: 17px;
+    }
+    .work {
+        height: 200px;
+    }
+    .h2-2{
+        font-size: 40px;
+    }
+    .h1 {
+        font-size: 33px;
+    }
+    .my-works {
+        padding-top: 70px;
+    }
+    .h2-4 {
+        font-size: 30px;
+    }
+    .p5 {
+        font-size: 22px;
+    }
+    .p3 {
+        font-size: 16px;
+    }
+    .image3 {
+        width: 130px;
+    }
+    .a3 {
+        font-size: 20px;
+    }
+    .image-001 {
+        width: 110px;
+    }
+}
+@media(max-width: 665px) {
+    .links {
+        width:70%;
+    }
+    .image2 {
+        width: 550px;
+        margin-top: 6px;
+    }
+    .p,.p2, .p4 {
+        font-size: 16px;
+        padding: 2px 0;
+    }
+    .h2,.h2-3 {
+        font-size: 18px;
+    }
+    .num {
+        font-size: 30px;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    .p3 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .df {
+        width: 20%;
+    }
+    .absolutes {
+        width: 95%;
+    }
+}
+@media(max-width: 572px) {
+    .links {
+        width:100%;
+    }
+    .navbar {
+        justify-content: center;
+    }
+    .image2 {
+        width:500px;
+        margin-top: 6px;
+    }
+    .p,.p2, .p4 {
+        font-size: 15px;
+        padding: 2px 0;
+    }
+    .h2,.h2-3 {
+        font-size: 18px;
+    }
+    .num {
+        font-size: 30px;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    .p3 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .df {
+        width: 20%;
+    }
+    .absolutes {
+        width: 99%;
+    }
+    .image-001 {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .image {
+        width: 240px;
+        height: 240px;
+    }
+    .work {
+        width: 45%;
+    }
+    .num {
+        font-size: 35px;
+    }
+    .h2-3 {
+        font-size: 25px;
+        padding: 5px 0;
+        margin: 0;
+    }
+    .p4 {
+        font-size: 17px;
+        padding: 3px 0;
+    }
+}
+@media(max-width: 488px) {
+    .image2 {
+        width:400px;
+        margin-top: 10px;
+    }
+    .p,.p2, .p4 {
+        font-size: 15px;
+        padding: 2px 0;
+    }
+    .h2,.h2-3 {
+        font-size: 18px;
+    }
+    .num {
+        font-size: 30px;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    .p3 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .df {
+        width: 20%;
+    }
+    .absolutes {
+        top: -15%;
+        justify-content: center;
+    }
+    .absolute {
+        width: 45%;
+        border-right:.5px solid #4D92EF ;
+        border-left:.5px solid #4D92EF ;
+    }
+    .black {
+        padding: 400px 20px;
+    }
+    .image-001 {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+    .work {
+        width: 45%;
+    }
+    .num {
+        font-size: 35px;
+    }
+    .h2-3 {
+        font-size: 20px;
+    }
+    .h2-4 {
+        font-size: 27px;
+    }
+    .p5 {
+        font-size: 20px;
+    }
+    .p4 {
+        font-size: 17px;
+        padding: 3px 0;
+    }
+    .btn2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .df {
+        width: 30%;
+    }
+}
+@media(max-width: 410px) {
+    .image2 {
+        width:300px;
+        margin-top: 10px;
+    }
+    .links {
+        justify-content: center;
+    }
+    .a {
+        width: 25%;
+        text-align: center;
+    }
+    .num {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    .df {
+        width: 25%;
+    }
+    .absolutes {
+        top: 0%;
+        row-gap: 20px;
+        justify-content: center;
+    }
+    .absolute {
+        width: 100%;
+        border:.5px solid #4D92EF ;
+        border-radius: 20px;
+    }
+    .black {
+        padding: 500px 20px;
+    }
+    .image-001 {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+    .work {
+        width: 100%;
+    }
+    .num {
+        font-size: 40px;
+    }
+    .h2-3 {
+        font-size: 25px;
+    }
+    .h2-4 {
+        font-size: 27px;
+    }
+    .p5 {
+        font-size: 20px;
+    }
+    .p4 {
+        padding: 3px 0;
+    }
+    .btn2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .btn {
+        font-size: 18px;
+    }
+    .blue {
+        padding: 20px 50px;
+    }
+    .df {
+        width: 40%;
+    }
+}
+@media(max-width:362px) {
+    .a {
+        width: 45%;
+    }
+    .links {
+        row-gap: 10px;
+    }
+    .h1 {
+        font-size: 25px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .image {
+        width: 180px;
+        height: 180px;
+    }
+    .black {
+        padding: 530px 20px;
+    }
+    .p3 {
+        font-size: 18px;
+    }
+    .resume {
+        padding: 10px;
+    }
+}
+@media(max-width:295px) {
+    .a {
+        width: 100%;
+    }
+    .links {
+        row-gap: 10px;
+    }
+    .h1 {
+        font-size: 25px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .image {
+        width: 150px;
+        height: 150px;
+    }
+    .image2 {
+        width: 250px;
+    }
+    .black {
+        padding: 550px 20px;
+    }
+    .blue {
+        padding: 10px;
+    }
+    .work {
+        height: 220px;
+    }
+    .btn {
+        font-size: 18px;
+        padding: 3px 13px;
+    }
+    .p4 {
+        padding: 5px 0;
+    }
+    .num {
+        font-size: 35px;
+    }
+    .df {
+        width: 50%;
+    }
+    .my-works {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media(max-width:260px) {
+    .image2 {
+        width: 220px;
+    }
+    .black {
+        padding: 600px 20px;
+    }
+    .p5 {
+        font-size: 18px;
+    }
 }
